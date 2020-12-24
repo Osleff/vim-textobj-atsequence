@@ -66,6 +66,7 @@ function! s:select_word_at_sequence(A, W)
         normal! B
       else
         normal! b
+      endif
     endif
     let startpos = getpos('.')
     if a:W

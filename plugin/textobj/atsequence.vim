@@ -13,18 +13,18 @@ set cpo&vim
 " Interface "{{{1
 call textobj#user#plugin('atsequence', {
 \      'target': {
-\        'select': 'stt', '*select-function*': 'textobj#atsequence#select_str_t',
+\        'select': 'ztt', '*select-function*': 'textobj#atsequence#select_str_t',
 \      },
 \      'word': {
-\        'select-a': 'astw', '*select-a-function*': 'textobj#atsequence#select_a_str_w',
-\        'select-i': 'istw', '*select-i-function*': 'textobj#atsequence#select_i_str_w',
+\        'select-a': 'aztw', '*select-a-function*': 'textobj#atsequence#select_a_str_w',
+\        'select-i': 'iztw', '*select-i-function*': 'textobj#atsequence#select_i_str_w',
 \      },
 \      'WORD': {
-\        'select-a': 'astW', '*select-a-function*': 'textobj#atsequence#select_a_str_W',
-\        'select-i': 'istW', '*select-i-function*': 'textobj#atsequence#select_i_str_W',
+\        'select-a': 'aztW', '*select-a-function*': 'textobj#atsequence#select_a_str_W',
+\        'select-i': 'iztW', '*select-i-function*': 'textobj#atsequence#select_i_str_W',
 \      },
 \      'line': {
-\        'select': 'stl', '*select-function*': 'textobj#atsequence#select_str_l',
+\        'select': 'ztl', '*select-function*': 'textobj#atsequence#select_str_l',
 \      },
 \    })
 " between
